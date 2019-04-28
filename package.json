@@ -1,6 +1,6 @@
 {
   "name": "@ioa/socket-client",
-  "version": "0.0.4",
+  "version": "7.0.0-alpha.1",
   "description": "socket.io客户端",
   "main": "app",
   "scripts": {
@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ioa": "^6.3.1",
+    "ioa": "^7.0.0-alpha.2",
     "socket.io-client": "^2.2.0"
   },
   "files": [
-     "app",
-     "!app/node_modules"
+    "app",
+    "!app/node_modules"
   ]
 }

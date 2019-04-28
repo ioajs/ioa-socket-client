@@ -1,8 +1,8 @@
 "use strict";
 
 module.exports = {
-    "@components": {
-        ".": {
+    "components": {
+        "./": {
            "url": "http://localhost:9200/",
         }
      }
