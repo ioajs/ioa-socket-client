@@ -2,8 +2,8 @@
 
 const { router } = require('@app');
 
-router.on('/task/update', 'task.update');
-
-router.on('/task/end', 'task.end');
-
 router.on('connect', 'task.connect');
+
+router.on('/task/queue', 'token', 'task.queue');
+
+router.on('/task/feedback', 'token', 'task.feedback');

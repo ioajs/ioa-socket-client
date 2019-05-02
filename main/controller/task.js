@@ -3,19 +3,23 @@
 class Task {
    connect(ctx) {
 
-      console.log("Task connect")
+      console.log("Task connect");
 
-      ctx.emit('/task/queue', 1);
-
-   }
-   async update(ctx) {
-
-      ctx.emit('/task/queue', 1);
+      ctx.emit('/task/queue', 666);
 
    }
-   async end() {
+   async queue(ctx) {
 
-      users.load();
+      const { body } = ctx.request;
+
+      console.log(body);
+
+   }
+   async feedback() {
+
+      const { body } = ctx.request;
+
+      console.log(body);
 
    }
 }
