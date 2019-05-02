@@ -5,7 +5,7 @@ const logger = require('loggercc');
 const routerMiddleware = require('ioa-router');
 const { WebSocket } = require('ioa-router/lib/common.js');
 
-const { socket: socketIo } = app;
+const { socketIo } = app;
 
 socketIo.on('connect', function () {
 
