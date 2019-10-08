@@ -1,17 +1,17 @@
 {
   "name": "@ioa/socket-client",
-  "version": "7.1.0",
+  "version": "9.4.0",
   "description": "socket.io客户端",
-  "main": "app",
+  "main": "lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ioa": "^7.1.0",
+    "ioa": "^9.4.1",
     "ioa-router": "^0.1.0",
-    "socket.io-client": "^2.2.0"
+    "socket.io-client": "^2.3.0"
   },
   "files": [
     "app",

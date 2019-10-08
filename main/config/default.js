@@ -1,9 +1,7 @@
 "use strict";
 
 module.exports = {
-   "components": {
-      "./app": {
-         "url": "http://localhost:9200/",
-      }
+   "lib": {
+      "url": "http://localhost:9200/",
    }
 }
